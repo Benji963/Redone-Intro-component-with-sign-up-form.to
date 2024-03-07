@@ -1,0 +1,135 @@
+:root {
+  --Dark-Blue: hsl(249, 10%, 26%);
+  --Grayish-Blue: hsl(246, 25%, 77%);
+  --Blue: hsl(248, 32%, 49%);
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  background-image: url(./images/bg-intro-desktop.png);
+  background-color: var(--Red);
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+}
+
+.statement h1 {
+  color: white;
+  font-size: 3rem;
+  width: 20ch;
+  margin-bottom: 1.2rem;
+}
+
+.statement p {
+  color: white;
+  width: 50ch;
+}
+
+.free-days {
+  background-color: var(--Blue);
+  padding-block: 1.1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.free-days p {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.free-days span {
+  margin-right: 4px;
+  font-weight: 600;
+}
+
+.mini-wrap {
+  background-color: white;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.input-control {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-control img {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 30%;
+  right: 3%;
+  display: none;
+}
+
+.input-control input {
+  width: 450px;
+  margin-block: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem 3rem 1rem 1rem;
+  border-radius: 5px;
+  border: 1px solid var(--Grayish-Blue);
+}
+
+button {
+  width: 450px;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: var(--Green);
+  color: white;
+  border: 2px solid hsl(154, 46%, 38%);
+  margin-top: 1rem;
+}
+
+.terms {
+  font-size: 0.75rem;
+  color: var(--Grayish-Blue);
+  margin-top: 0.5rem;
+}
+
+.terms span {
+  color: var(--Red);
+  font-weight: 700;
+}
+
+.error {
+  text-align: right;
+  color: var(--Red);
+  font-size: 0.8rem;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
