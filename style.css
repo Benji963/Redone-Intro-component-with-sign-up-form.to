@@ -133,3 +133,141 @@ button:hover {
   cursor: pointer;
   opacity: 50%;
 }
+
+@media screen and (max-width: 500px) {
+  body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    margin: 0 auto;
+    background-image: url(./images/bg-intro-mobile.png);
+  }
+
+  .container {
+    height: unset;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .statement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .statement h1 {
+    display: flex;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+  }
+
+  .statement p {
+    width: 410px;
+    margin-bottom: 2rem;
+  }
+
+  .wrapper {
+    width: 500px;
+  }
+
+  .free-days {
+    padding: 0.5rem;
+  }
+
+  .free-days p {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mini-wrap {
+    height: unset;
+    margin-bottom: 3rem;
+  }
+
+  .terms {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    margin: 0 auto;
+    background-image: url(./images/bg-intro-mobile.png);
+  }
+
+  .container {
+    height: unset;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .statement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .statement h1 {
+    display: flex;
+    text-align: center;
+
+    font-size: 2.5rem;
+  }
+
+  .statement p {
+    width: 350px;
+    margin-bottom: 2rem;
+  }
+
+  .wrapper {
+    width: 375px;
+  }
+
+  .free-days {
+    padding: 0.5rem;
+  }
+
+  .free-days p {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mini-wrap {
+    height: unset;
+    margin-bottom: 3rem;
+  }
+
+  .input-control {
+    width: 300px;
+  }
+
+  .input-control input {
+    width: 300px;
+  }
+
+  button {
+    width: 300px;
+  }
+
+  .terms {
+    text-align: center;
+    width: 300px;
+    margin-top: 1rem;
+  }
+}
+
