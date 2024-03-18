@@ -173,7 +173,7 @@ button:hover {
   }
 
   .wrapper {
-    width: 500px;
+    width: 400px;
   }
 
   .free-days {
@@ -190,7 +190,21 @@ button:hover {
     margin-bottom: 3rem;
   }
 
+.input-control {
+    width: 300px;
+  }
+
+  .input-control input {
+    width: 300px;
+  }
+
+  button {
+    width: 300px;
+  }
+
   .terms {
+    text-align: center;
+    width: 300px;
     margin-top: 1rem;
   }
 }
